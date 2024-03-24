@@ -1,25 +1,25 @@
 {
 	"schema_version": 1,
 	"quilt_loader": {
-		"group": "${group}",
-		"id": "example_mod",
+		"group": "io.github.the_dexman",
+		"id": "dexmod_quilt",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "THE GLORIOUS DEXMOD!!",
+			"description": "now for quilt",
 			"contributors": {
-				"Your name here": "Owner"
+				"the_dexman": "the_dexman"
 			},
 			"contact": {
-				"homepage": "https://example.com/",
-				"issues": "https://github.com/QuiltMC/quilt-template-mod/issues",
-				"sources": "https://github.com/QuiltMC/quilt-template-mod"
+				"homepage": "https://the-dexman.github.io",
+				"issues": "https://github.com/the-dexman/learn-quilt-modding/issues",
+				"sources": "https://github.com/the-dexman/learn-quilt-modding"
 			},
-			"icon": "assets/example_mod/icon.png"
+			"icon": "assets/dexmod_quilt/icon.png"
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "io.github.the_dexman.dexmod_quilt.DexmodQuilt"
 		},
 		"depends": [
 			{
@@ -36,5 +36,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "dexmod_quilt.mixins.json"
 }
