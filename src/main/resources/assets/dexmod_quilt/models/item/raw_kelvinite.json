@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "dexmod_quilt:item/raw_kelvinite"
+  }
+
+}

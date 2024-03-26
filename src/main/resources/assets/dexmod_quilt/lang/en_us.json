@@ -1,3 +1,10 @@
 {
-  "item.dexmod_quilt.strange_object": "Strange Object"
+  "item.dexmod_quilt.strange_object": "Strange Object",
+  "item.dexmod_quilt.kelvinite_pickaxe": "Kelvinite Pickaxe",
+  "item.dexmod_quilt.kelvinite_axe": "Kelvinite Axe",
+  "item.dexmod_quilt.kelvinite_shovel": "Kelvinite Shovel",
+  "item.dexmod_quilt.kelvinite_hoe": "Kelvinite Hoe",
+  "item.dexmod_quilt.kelvinite_sword": "Kelvinite Sword",
+  "block.dexmod_quilt.kelvinite_ore": "Kelvinite Ore",
+  "item.dexmod_quilt.raw_kelvinite": "Raw Kelvinite"
 }
