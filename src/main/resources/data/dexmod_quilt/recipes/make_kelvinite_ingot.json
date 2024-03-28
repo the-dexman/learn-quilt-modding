@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_trim",
+  "template": {
+    "item": "minecraft:tide_armor_trim_smithing_template"
+  },
+  "base": {
+    "item": "dexmod_quilt:molten_kelvinite"
+  },
+  "addition": {
+    "item": "minecraft:powder_snow_bucket"
+  },
+  "result": {
+    "item": "dexmod_quilt:kelvinite_ingot"
+  }
+}

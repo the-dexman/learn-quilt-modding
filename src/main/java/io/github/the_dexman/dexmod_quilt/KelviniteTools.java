@@ -4,8 +4,7 @@ import net.minecraft.item.ToolMaterial;
 import net.minecraft.item.ToolMaterials;
 import net.minecraft.recipe.Ingredient;
 
-public class KelviniteTools implements ToolMaterial
-{
+public class KelviniteTools implements ToolMaterial {
 
 	@Override
 	public int getDurability() {
@@ -14,7 +13,8 @@ public class KelviniteTools implements ToolMaterial
 
 	@Override
 	public float getMiningSpeedMultiplier() {
-		return 4;
+		return 26;
+
 	}
 
 	@Override

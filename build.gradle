@@ -1,6 +1,6 @@
 plugins {
 	id 'maven-publish'
-	alias libs.plugins.quilt.loom
+	id 'org.quiltmc.loom' version '1.+' // Required for the loader to work.
 }
 
 base {
@@ -16,6 +16,10 @@ repositories {
 	// Loom adds the essential maven repositories to download Minecraft and libraries from automatically.
 	// See https://docs.gradle.org/current/userguide/declaring_repositories.html
 	// for more information about repositories.
+	maven {
+		name 'Quilt'
+		url 'https://maven.quiltmc.org/repository/release'
+	}
 }
 
 loom {
@@ -44,12 +48,15 @@ dependencies {
 		officialMojangMappings()
 	}
 	*/
-	modImplementation libs.quilt.loader
+	modImplementation "org.quiltmc:quilt-loader:${project.loader_version}"
 
 	// QSL is not a complete API; You will need Quilted Fabric API to fill in the gaps.
 	// Quilted Fabric API will automatically pull in the correct QSL version.
 	modImplementation libs.quilted.fabric.api
 	// modImplementation libs.bundles.quilted.fabric.api // If you wish to use Fabric API's deprecated modules, you can replace the above line with this one
+
+	modImplementation "org.quiltmc:qsl:${qsl_version}+${minecraft_version}"
+
 }
 
 processResources {

@@ -6,5 +6,7 @@
   "item.dexmod_quilt.kelvinite_hoe": "Kelvinite Hoe",
   "item.dexmod_quilt.kelvinite_sword": "Kelvinite Sword",
   "block.dexmod_quilt.kelvinite_ore": "Kelvinite Ore",
-  "item.dexmod_quilt.raw_kelvinite": "Raw Kelvinite"
+  "item.dexmod_quilt.raw_kelvinite": "Raw Kelvinite",
+  "item.dexmod_quilt.molten_kelvinite": "Molten Kelvinite",
+  "item.dexmod_quilt.kelvinite_ingot": "Kelvinite Ingot"
 }

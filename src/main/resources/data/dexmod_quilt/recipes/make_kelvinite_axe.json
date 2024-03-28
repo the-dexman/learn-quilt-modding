@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " dd",
+    " /d",
+    " / "
+  ],
+  "key": {
+    "d": {
+      "item": "dexmod_quilt:kelvinite_ingot"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dexmod_quilt:kelvinite_axe"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "dexmod_quilt:raw_kelvinite"
+  },
+  "result": "dexmod_quilt:molten_kelvinite",
+  "experience": 0.1,
+  "cookingtime": 1600
+}
